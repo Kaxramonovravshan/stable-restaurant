@@ -9,3 +9,8 @@ document.querySelectorAll(".nav-link").forEach(n => n.addEventListener("click", 
     navMenu.classList.remove("active")
 }))
 
+
+
+document.getElementById("btn").addEventListener("click", ()=>{
+    alert("Спасибо что нажали на эту кнопку")
+})
